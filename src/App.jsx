@@ -33,7 +33,7 @@ function App() {
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <BrowserRouter>
+        <BrowserRouter basename="/tevanoxmovie-web">
           <Layout>
             <Routes>
               <Route path="/" element={<Home />} />
