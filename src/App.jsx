@@ -18,7 +18,7 @@ import SeriesDetails from './pages/SeriesDetails';
 import MusicDetails from './pages/MusicDetails';
 import Search from './pages/Search';
 import Login from './pages/Login';
-import Register from './pages/Register';
+import Register from './pages/Register.jsx';
 import Profile from './pages/Profile';
 import Subscription from './pages/Subscription';
 import Downloads from './pages/Downloads';
