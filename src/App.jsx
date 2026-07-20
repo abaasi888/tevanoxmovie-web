@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -30,7 +30,7 @@ function App() {
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <BrowserRouter basename="/tevanoxmovie-web">
+        <HashRouter>
           <Layout>
             <Routes>
               <Route path="/" element={<Home />} />
@@ -52,7 +52,7 @@ function App() {
             </Routes>
           </Layout>
           <ToastContainer position="top-right" autoClose={3000} />
-        </BrowserRouter>
+        </HashRouter>
       </ThemeProvider>
     </Provider>
   );
