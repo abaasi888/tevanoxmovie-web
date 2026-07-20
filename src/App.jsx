@@ -25,10 +25,7 @@ import Downloads from './pages/Downloads';
 
 import './styles/globals.css';
 
-console.log('📱 App.jsx is rendering');
-
 function App() {
-  console.log('🔄 App function called');
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
@@ -60,7 +57,5 @@ function App() {
     </Provider>
   );
 }
-
-console.log('✅ App component defined');
 
 export default App;
