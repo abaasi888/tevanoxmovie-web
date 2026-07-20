@@ -9,7 +9,7 @@ export default defineConfig({
         host: '0.0.0.0',
     },
     build: {
-        outDir: 'dist',
+        outDir: 'docs',  // Change from 'dist' to 'docs'
         sourcemap: true,
         rollupOptions: {
             output: {
