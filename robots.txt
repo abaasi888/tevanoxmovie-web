@@ -1,0 +1,15 @@
+# robots.txt for TevanoxMovie
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /profile/
+Disallow: /subscription/
+Disallow: /payment/
+
+# Crawl delay
+Crawl-delay: 5
+
+# Sitemap
+Sitemap: https://tevanox.com/sitemap.xml
